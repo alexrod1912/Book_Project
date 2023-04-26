@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Book_Library
+build_property.RootNamespace = Book_Library
+build_property.ProjectDir = /Users/naomirodriguez/Desktop/LaunchCode_Things/C#Practice/Book_Library/Book_Library/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/naomirodriguez/Desktop/LaunchCode_Things/C#Practice/Book_Library/Book_Library
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/HomeLibrary/AddBookView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZUxpYnJhcnkvQWRkQm9va1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/HomeLibrary/DeleteBookView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZUxpYnJhcnkvRGVsZXRlQm9va1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/HomeLibrary/DetailBookView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZUxpYnJhcnkvRGV0YWlsQm9va1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/HomeLibrary/EditBookView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZUxpYnJhcnkvRWRpdEJvb2tWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/HomeLibrary/HomeLibraryView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZUxpYnJhcnkvSG9tZUxpYnJhcnlWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/naomirodriguez/Desktop/LaunchCode_Things/C\#Practice/Book_Library/Book_Library/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ioyzn0lgta

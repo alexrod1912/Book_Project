@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{5C5B73C3-52EC-4C9F-83F0-B7B108B19423}|Default">
+  <MonoDevelop.Ide.ItemProperties.Book__Library PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Book_Library/Controllers/HomeLibraryController.cs">
+    <Files>
+      <File FileName="Book_Library/Data/BookDbContext.cs" Line="19" Column="37" />
+      <File FileName="Book_Library/Program.cs" Line="5" Column="1" />
+      <File FileName="Book_Library/Models/Book.cs" />
+      <File FileName="Book_Library/ViewModels/AddBookViewModel.cs" />
+      <File FileName="Book_Library/Controllers/HomeLibraryController.cs" Line="16" Column="16" />
+      <File FileName="Book_Library/Controllers/HomeController.cs" />
+      <File FileName="Book_Library/Views/HomeLibrary/DeleteBookView.cshtml" />
+      <File FileName="Book_Library/wwwroot/css/site.css" />
+      <File FileName="Book_Library/Views/HomeLibrary/DetailBookView.cshtml" />
+      <File FileName="Book_Library/wwwroot/css/HomeLibrary.css" />
+      <File FileName="Book_Library/Views/_ViewImports.cshtml" />
+      <File FileName="Book_Library/Views/_ViewStart.cshtml" />
+      <File FileName="Book_Library/Views/Home/Index.cshtml" />
+      <File FileName="Book_Library/appsettings.json" />
+      <File FileName="Book_Library/Views/Shared/_Layout.cshtml" Line="34" Column="69" />
+      <File FileName="Book_Library/Views/HomeLibrary/EditBookView.cshtml" />
+      <File FileName="Book_Library/Views/HomeLibrary/AddBookView.cshtml" />
+      <File FileName="Book_Library/Views/HomeLibrary/HomeLibraryView.cshtml" Line="9" Column="72" />
+      <File FileName="Book_Library/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="Book_Library/wwwroot/css/AddBook.css" />
+      <File FileName="Book_Library/global.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Book_Library" expanded="True">
+            <Node name="Book_Library" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Data" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeLibraryController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="HomeLibrary" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

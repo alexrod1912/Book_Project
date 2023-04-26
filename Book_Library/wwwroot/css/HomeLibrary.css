@@ -1,0 +1,8 @@
+﻿.card-deck{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+h1{
+    color: red;
+}

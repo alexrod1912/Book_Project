@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Book>
+<h1>Delete Book</h1>
+
+<form method="post" asp-controller="HomeLibrary" asp-action="DeleteBookView">
+    @foreach (var book in ViewBag.book)
+    {
+        <div class="form-group">
+            <label>
+                <p>@book.BookTitle</p>
+                <input type="checkbox" name="bookId" value="@book.Id" >
+            </label>
+        </div>
+    }
+
+    <input type="submit" value="Delete Selected Book" class="btn btn-danger">
+
+</form>

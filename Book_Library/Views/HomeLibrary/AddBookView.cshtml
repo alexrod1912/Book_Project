@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Book_Library.ViewModels.AddBookViewModel
+
+    <link rel="stylesheet" type="text/css" href="~/css/AddBook.css">
+
+<h1>Add Book</h1>
+
+<form asp-controller="HomeLibrary" asp-action="AddBookView" method="post">
+    <div class="form-group">
+        <label asp-for="BookTitleVM">Title</label>
+        <input asp-for="BookTitleVM" />
+        <span asp-validation-for="BookTitleVM"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BookAuthorVM">Author</label>
+        <input asp-for="BookAuthorVM" />
+        <span asp-validation-for="BookAuthorVM"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BookGenreVM">Genre</label>
+        <input asp-for="BookGenreVM" />
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="BookDescriptionVM">Description</label>
+        <input asp-for="BookDescriptionVM" />
+        
+    </div>
+    <div class="form-group">
+        <label asp-for="BookRatingVM">Rating out of 5</label>
+        <input asp-for="BookRatingVM" />
+        <span asp-validation-for="BookRatingVM"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="BookIMG_VM">Insert Image Address</label>
+        <input asp-for="BookIMG_VM" />
+        
+    </div>
+
+
+    <input type="submit" value="Add Book" />
+</form>

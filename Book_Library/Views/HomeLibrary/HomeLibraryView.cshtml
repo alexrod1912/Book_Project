@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Book>
+
+    <link rel="stylesheet" type="text/css" href="~/css/HomeLibrary.css">
+
+
+    <div class="bodyAll">
+        
+        </div>
+        @if (Model.Count == 0)
+        {
+            <p>Add a book to start your library!</p>
+        }
+        else
+        {
+            <div class="main">
+                <h1>Welcome To Your Home Library</h1>
+
+                <div class="card-deck">
+
+                    @foreach (var book in Model)
+                    {
+
+                        <div class="card">
+
+                            <a class = "img-wrapper" asp-controller="HomeLibrary" asp-action="DetailBookView" asp-route-id="@book.Id">
+
+                                <img class="card-img-top" src="@book.BookIMG" alt="Card image">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">@book.BookTitle</h4>
+                                <p class="card-text">@book.BookAuthor</p>
+                                <div class="edit-icon">
+                                <a asp-controller="HomeLibrary" asp-action="EditBookView" asp-route-id="@book.Id"> <i class="bi bi-pencil-square"></i></a>
+                                </div>
+
+                                </div>
+
+                        </div>
+
+                    }
+                </div>
+            </div>
+    
+    
+        }
+</div>
