@@ -25,6 +25,8 @@ namespace Book_Library.ViewModels
         [Required(ErrorMessage = "Genre is required.")]
         public string? BookGenreVM { get; set; }
 
+        public string? BookUserId { get; set; }
+
         public AddBookViewModel()
 		{
 		}

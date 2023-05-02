@@ -8,24 +8,31 @@ using Microsoft.Extensions.Logging;
 using Book_Library.Models;
 using Book_Library.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Book_Library.Controllers
 {
+    
+
     [Authorize]
     public class HomeLibraryController : Controller
     {
         private BookDbContext context;
+        private UserManager<IdentityUser> UserManager;
 
-        public HomeLibraryController(BookDbContext dbContext)
+        public HomeLibraryController(BookDbContext dbContext, UserManager<IdentityUser> userManager)
         {
             context = dbContext;
+            UserManager = userManager;
         }
         // GET: /<controller>/
         public IActionResult HomeLibraryView()
         {
-            List<Book> books = context.Book.ToList();
+            string id = UserManager.GetUserId(User);
+            List<Book> books = context.Book.Where(b => b.BookUserId == id).ToList();
             return View(books);
         }
 
@@ -45,6 +52,7 @@ namespace Book_Library.Controllers
             {
                 Book newBook = new Book
                 {
+                    BookUserId = addBookViewModel.BookUserId,
                     BookAuthor = addBookViewModel.BookAuthorVM,
                     BookDescription = addBookViewModel.BookDescriptionVM,
                     BookGenre = addBookViewModel.BookGenreVM,

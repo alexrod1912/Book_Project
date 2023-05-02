@@ -10,6 +10,7 @@ namespace Book_Library.Data
     public class BookDbContext : IdentityDbContext<IdentityUser, IdentityRole, string>
     {
         public DbSet<Book> Book { get; set; }
+        
 
         public BookDbContext(DbContextOptions<BookDbContext> options)
             : base(options)

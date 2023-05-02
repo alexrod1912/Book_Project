@@ -10,9 +10,9 @@ namespace Book_Library.Models
         public string? BookIMG { get; set; }
 		public string? BookGenre { get; set; }
 		public int Id { get; set; }
-		public int BookUserId { get; set; }
+		public string? BookUserId { get; set; }
 
-		public Book(string bookTitle, string bookDescription, string bookAuthor, int bookRating, string bookIMG, string bookGenre)
+		public Book(string bookTitle, string bookDescription, string bookAuthor, int bookRating, string bookIMG, string bookGenre, string bookUserId)
 		{
 			BookTitle = bookTitle;
 			BookAuthor = bookAuthor;
@@ -20,7 +20,7 @@ namespace Book_Library.Models
 			BookRating = bookRating;
 			BookIMG = bookIMG;
 			BookGenre = bookGenre;
-
+			BookUserId = bookUserId;
 		}
 
 		public Book()

@@ -3,10 +3,13 @@
 *@
 @{
 }
+@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<IdentityUser> UserManager
 
 @model Book_Library.ViewModels.AddBookViewModel
 
-    <link rel="stylesheet" type="text/css" href="~/css/AddBook.css">
+<link rel="stylesheet" type="text/css" href="~/css/AddBook.css">
 
 <h1>Add Book</h1>
 
@@ -24,24 +27,25 @@
     <div class="form-group">
         <label asp-for="BookGenreVM">Genre</label>
         <input asp-for="BookGenreVM" />
-        
+
     </div>
     <div class="form-group">
         <label asp-for="BookDescriptionVM">Description</label>
         <input asp-for="BookDescriptionVM" />
-        
+
     </div>
     <div class="form-group">
         <label asp-for="BookRatingVM">Rating out of 5</label>
         <input asp-for="BookRatingVM" />
-        <span asp-validation-for="BookRatingVM"/>
+        <span asp-validation-for="BookRatingVM" />
     </div>
     <div class="form-group">
         <label asp-for="BookIMG_VM">Insert Image Address</label>
         <input asp-for="BookIMG_VM" />
-        
+
     </div>
-
-
+    <div>
+        <input asp-for="BookUserId" value="@UserManager.GetUserId(User)" />
+    </div>
     <input type="submit" value="Add Book" />
 </form>
